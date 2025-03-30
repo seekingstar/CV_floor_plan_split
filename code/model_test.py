@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from torchvision.utils import make_grid
 
 # 在Kaggle云端保存模型
-save_path = '/kaggle/working/unet_model.pth'
+save_path = '/kaggle/working/split_model.pth'
 
 # 确保目录存在
 os.makedirs(os.path.dirname(save_path), exist_ok=True)
